@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+body { text-align: center; border: 1px solid;}
+form { margin: auto; width: 200px; border: solid rgb(0, 128, 64); display: block;}
+
+div {
+  display: flex;
+  align-items: center;
+}
+.form-label{
+	color:rgb(34 15 141 / 61%);
+}
+
+.card{
+	background-color:rgba(0,0,0,0.5)!important;
+}
