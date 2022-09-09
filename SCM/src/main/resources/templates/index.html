@@ -21,7 +21,7 @@
           <a href="add_user.html" th:href="@{/addShipment}" style= "bgcolor: #8080ff"; class="downLink icon-b"><i class="fas fa-user-plus"></i>Add Shipments</a>
         </div>
       </div>
-      <a href="#" class="icon-a"><i class="fas fa-cogs icons"></i>Device Data Stream</a>
+      <a href="#"th:href="@{/device}" class="icon-a"><i class="fas fa-cogs icons"></i>Device Data Stream</a>
       <a th:href="@{/logout}"sec:authorize ="isAuthenticated()" class="icon-a"><i class="fas fa-sign-out-alt icons"></i>Sign Out</a>
     </div>
     <!-- Headlines -->
